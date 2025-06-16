@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="driver\init\driverInit.cpp">
+      <Filter>driver\init</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver\init\driverInit.h">
+      <Filter>driver\init</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\init\driverData.h">
+      <Filter>driver\init</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\auth\genOTP.h">
+      <Filter>driver\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\structure.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\ioctl.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="anonymous.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{3caaa6c8-dd33-4025-834e-ae4069a520ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\auth">
+      <UniqueIdentifier>{5a9fe7e1-21f7-42e5-ae78-f88d213294d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\init">
+      <UniqueIdentifier>{0f2a205a-f44a-4ee3-98b2-9655d9478014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{4509794e-d177-4cae-9197-18fe6377c1e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

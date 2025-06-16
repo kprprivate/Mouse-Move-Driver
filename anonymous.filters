@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{22f6e317-6ab0-458f-bb42-f8398b484b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\auth">
+      <UniqueIdentifier>{bbe9017f-e0d6-41a0-b4f7-870323d428db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\init">
+      <UniqueIdentifier>{09256cc8-e6a1-4760-92e9-53365365cdb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kprl.cpp" />
+    <ClCompile Include="driver\init\driverInit.cpp">
+      <Filter>driver\init</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\auth\genOTP.h">
+      <Filter>driver\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\ioctl.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\structure.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\init\driverData.h">
+      <Filter>driver\init</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\init\driverInit.h">
+      <Filter>driver\init</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
